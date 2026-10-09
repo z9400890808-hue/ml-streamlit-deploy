@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-MODEL_PATH = "rental_interest_tfidf_pipeline.joblib"
+MODEL_PATH = "best_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="RentHop Interest Predictor", page_icon="🏠")
